@@ -255,6 +255,7 @@ RAG answers may vary in wording, so tests should normally check required facts a
 
 ### PDF not found
 
+- ***Notice*** -> The internal process document has been removed. Please use your example processes document.
 - Confirm the PDF exists at the path used by the loader.
 - Run Uvicorn from the expected working directory, or change the loader to use a path derived from the source file location.
 
