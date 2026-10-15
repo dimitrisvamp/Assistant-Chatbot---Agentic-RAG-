@@ -130,10 +130,10 @@ Review the generated file before committing it so it contains the dependencies n
 
 ### 4. Add the internal documentation
 
-Place the PDF that the RAG system should search at the path expected by the application. In the current project, the loader uses:
+Place the PDF that the RAG system should search at the path expected by the application:
 
 ```text
-src/main/resources/documents/Internal_Processes.pdf
+src/main/resources/documents/Your_Internal_Processes.pdf
 ```
 
 The path is relative to the process's working directory in the current implementation. Start the application from the expected directory, or update the loader to construct an absolute path based on `__file__` so it works regardless of the current working directory.
