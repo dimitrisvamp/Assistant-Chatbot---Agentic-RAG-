@@ -1,0 +1,23 @@
+Python virtual environments
+
+chatbot/
+venv/
+.venv/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+
+Python cache
+
+pycache/
+*.py[cod]
+
+Secrets
+
+.env
+
+IDE
+
+.idea/
+.vscode/

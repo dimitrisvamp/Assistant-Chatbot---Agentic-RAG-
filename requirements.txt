@@ -1,0 +1,20 @@
+(Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned) ; (& c:\Users\Χρήστης\OneDrive\Υπολογιστής\chatbot\chatbot\Scripts\Activate.ps1)
+ollama serve
+ollama pull nomic-embed-text
+ollama pull llama3.2
+python -m src.main.controller.chatbot
+
+
+fastapi
+uvicorn
+langchain
+langchain-community
+langchain-openai
+langchain-ollama
+faiss-cpu
+pypdf
+python-dotenv
+openai
+ollama
+openpyxl
+rank_bm25
